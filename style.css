@@ -1,0 +1,66 @@
+
+body{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 20%);
+}
+.choices{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.choices button{
+    font-size: 4.5rem;
+    min-width: 160px;
+    margin: 10px 10px;
+    border-radius: 75px;
+    background-color: white;
+    cursor: pointer;
+}
+.choices button:hover{
+    background-color:skyblue;
+}
+.roundsDisplay{
+    font-size: 2rem;
+}
+#PlayerDisplay, #ComputerDisplay,#gameStatusDisplay{
+    font-size: 2.5rem;
+}
+#ResultDisplay{
+    font-size: 5rem;
+    margin: 30px;
+}
+.scoreDisplay{
+    font-size: 2rem;
+}
+.greenText, #playerScoreDisplay{
+    color: hsl(130, 84%, 54%);
+}
+.redText, #computerScoreDisplay{
+    color: hsl(0, 84%, 60%);
+}
+.m{
+    font-size: 35px;
+    min-width: 200;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.n{
+    display: inline-block;
+    padding: 20px 30px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: hsl(240, 9%, 91%);
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+html{
+    background-color: gray;
+}
